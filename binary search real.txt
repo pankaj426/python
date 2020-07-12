@@ -1,0 +1,25 @@
+pos = -1
+
+def search(list,n):
+    l=0
+    u=len(list)-1
+
+    while l<=u:
+        mid = (l+u)//2
+        if list[mid]==n:
+            globals()['pos']=mid
+            return True
+        else:
+            if list[mid] == n:
+                l=mid
+            else:
+                u=mid
+    return False
+
+list = [12,13,34,56,78 ,90]
+n=34
+
+if search(list,n):
+    print("found",pos)
+else:
+    print("not found")

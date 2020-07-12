@@ -1,0 +1,30 @@
+READ
+f = open('pankaj','r')
+
+print(f.read())
+
+
+WRITE
+f = open('pankaj','r')
+
+print(f.read())
+f = open('abc','w')
+f.write('pank')
+
+
+COPY DATA ONE FILE TO ANTHER FILE
+f = open('pankaj','r')
+
+
+f1 = open('abc','a')
+
+for data in f:
+    f1.write(data)
+
+PIC COPY FROM ONE FILE TO ANOTHER FILE
+f = open('pic.jpj','rb')
+
+
+f1 = open('mypic.jpg','w')
+for i in f:
+    f1.write(i)

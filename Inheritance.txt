@@ -1,0 +1,17 @@
+class A:
+        def fet(self):
+                print("fet1")
+        def fet2(self):
+                print("fet2")
+class B(A):
+
+        def fet3(self):
+                print("fet3")
+        def fet4(self):
+                print("ftr4")
+
+
+a = A()
+a.fet()
+b = B()
+b.fet2()

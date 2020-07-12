@@ -1,0 +1,15 @@
+class A:
+        def show(self):
+                print("ina show")
+
+
+class B(A):
+        def show(self):
+                print("on a b")
+
+
+
+a=A()
+b=B()
+a.show()
+b.show()

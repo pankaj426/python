@@ -1,0 +1,65 @@
+function name (){
+command 
+}
+
+
+
+name () {
+command
+}
+
+#! /bin/bash
+
+function Hello(){
+        echo "hello"
+}
+
+quit () {
+        exit
+}
+
+
+Hello
+echo "foo"
+quit
+
+
+
+function print(){
+        echo $1 $2 $3
+}
+
+quit () {
+        exit
+}
+
+
+print Hello manish df
+print word pin pin
+print manish eef d
+echo "foo"
+quit
+
+
+
+
+
+
+
+
+#! /bin/bash
+
+function print(){
+        echo $1
+}
+
+quit () {
+        exit
+}
+
+
+print Hello
+print word
+print manish
+echo "foo"
+quit

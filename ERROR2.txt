@@ -1,0 +1,38 @@
+a=2
+b=0
+
+try:
+        print("open resource")
+        print(a/b)
+
+except ZeroDivisionError as e:
+        print("hey you camn not devided by zero",e)
+except ValueError as e:
+        print("hey you camn not devided by zero", e)
+except Exception as e:
+        print("SOMETHING WENT WROMNG", e)
+
+
+
+finally:
+        print("closed resource")
+
+
+a=2
+b=0
+
+try:
+        print("open resource")
+        print(a/b)
+
+except ZeroDivisionError as e:
+        print("hey you camn not devided by zero",e)
+except ValueError as e:
+        print("hey you camn not devided by zero", e)
+except Exception as e:
+        print("SOMETHING WENT WROMNG", e)
+
+
+
+finally:
+        print("closed resource")

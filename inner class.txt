@@ -1,0 +1,88 @@
+
+
+class student:
+
+        def __init__(self,name,roolno):
+                self.name=name
+                self.roolno=roolno
+
+        def show(self):
+                print(self.name,self.roolno)
+
+
+
+
+
+
+s1=student('pankaj',12)
+s1=student('jakir',23)
+
+s1.show()
+
+
+
+
+
+
+
+
+
+
+class student:
+
+        def __init__(self,name,roolno):
+                self.name=name
+                self.roolno=roolno
+                self.lap=self.laptop
+
+        def show(self):
+                print(self.name,self.roolno)
+
+
+
+        class laptop:
+                def __init__(self):
+                        self.brand='hp'
+                        self.cpu='i5'
+
+
+
+s1=student('pankaj',12)
+s1=student('jakir',23)
+
+s1.show()
+lap1=s1.lap
+print(s1.lap)
+
+
+
+
+
+
+
+class student:
+
+        def __init__(self,name,roolno):
+                self.name=name
+                self.roolno=roolno
+                self.lap=self.laptop
+
+        def show(self):
+                print(self.name,self.roolno)
+                self.laptop.show()
+
+
+        class laptop:
+                def __init__(self):
+                        self.brand='hp'
+                        self.cpu='i5'
+
+                def show(self):
+                         print(self.brand,self.cpu)
+
+
+s1=student('pankaj',12)
+s1=student('jakir',23)
+
+s1.show()
+

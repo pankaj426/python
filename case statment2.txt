@@ -1,0 +1,22 @@
+echo -e "enter some charracter :\c"
+read value
+
+
+
+case $value in
+        [a-z] )
+            echo "user enter $value a to z" ;;
+
+        [A-Z] )
+             echo "user enter the $value A to Z " ;;
+        ? )
+                echo "user enter special character";;
+        * )
+                echo "user enter unk valuw";;
+
+                esac
+
+
+
+
+LANG=C  for capital letter if not recognised

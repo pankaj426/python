@@ -1,0 +1,49 @@
+#! /bin/bash
+
+num=123.50
+jum=2
+
+
+echo "123.50+2" | bc
+echo "123.50-2" | bc
+echo "123.50*2" | bc
+echo "scale=20;123.50/2" | bc
+echo "123.50%2" | bc
+
+
+
+#! /bin/bash
+
+num=123.50
+jum=2
+
+
+echo "$num+$jum" | bc
+echo "123.50-2" | bc
+echo "123.50*2" | bc
+echo "scale=20;123.50/2" | bc
+echo "123.50%2" | bc
+
+num1=26
+echo "scale=2;sqrt($num1)" | bc -l
+~
+
+
+
+
+#! /bin/bash
+
+num=123.50
+jum=2
+
+
+echo "$num+$jum" | bc
+echo "123.50-2" | bc
+echo "123.50*2" | bc
+echo "scale=20;123.50/2" | bc
+echo "123.50%2" | bc
+
+num1=26
+echo "scale=2;sqrt($num1)" | bc -l
+echo "scale=2;3^3" | bc -l
+

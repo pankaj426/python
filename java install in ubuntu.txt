@@ -1,0 +1,13 @@
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt-get update
+sudo apt-get install oracle-java10-installer
+
+Setting up environment variables (make java10 default)
+
+sudo apt-get install oracle-java10-set-default
+
+
+
+apt install default-jre
+apt install openjdk-11-jre-headless
+apt install openjdk-8-jre-headless

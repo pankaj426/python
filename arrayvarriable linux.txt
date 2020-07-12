@@ -1,0 +1,23 @@
+#! /bin/bash
+
+os=('ubuntu' 'windows' 'kali')
+os[0]='mac'
+echo "${os[@]}"
+echo "${os[0]}"
+echo "${!os[@]}"
+echo "${#os[@]}"
+~
+
+
+
+#! /bin/bash
+
+os=('ubuntu' 'windows' 'kali')
+
+unset os[2]
+os[0]='mac'
+echo "${os[@]}"
+echo "${os[0]}"
+echo "${!os[@]}"
+echo "${#os[@]}"
+~

@@ -1,0 +1,15 @@
+def sort(num):
+
+    for i in range(5):
+        minpos=i
+        for j in range(i,6):
+            if num[j]<num[minpos]:
+                minpos=j
+
+        tem = num[i]
+        num[i] = num[minpos]
+        num[minpos]= tem
+
+num=[4,3,5,2,9,8,34,12,45,12,34]
+sort(num)
+print(num)

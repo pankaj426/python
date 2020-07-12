@@ -1,0 +1,38 @@
+select varName in list
+do 
+     command
+done
+
+
+#! /bin/bash
+
+
+select name in maerk jan pankmaj anshika
+do
+        echo "$name selected"
+done
+~
+~
+~
+~
+~
+~
+#! /bin/bash
+
+
+select name in mark john tom
+do
+        case $name in
+        mark)
+        echo mark selected
+        ;;
+        john)
+        echo john selected
+        ;;
+        tom)
+        echo to selected
+        ;;
+        *)
+        echo "error please provide the "
+        esac
+done

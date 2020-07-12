@@ -1,0 +1,17 @@
+#! /bin/bash
+
+
+
+vehicle=$1
+
+
+case $vehicle in
+        "car" )
+            echo "rent of the $vehicle is 100 doller" ;;
+
+        "truck" )
+             echo "rent of the $vehicle 12300 doller" ;;
+        * )
+                echo "unknow cehicle";;
+
+                esac

@@ -1,0 +1,18 @@
+#! /bin/bash
+
+function print(){
+        local name=$1
+        echo "the name is $name"
+}
+
+quit () {
+        exit
+}
+
+name="tom"
+echo "the name is $name : before"
+print max
+echo "the name is $name : after"
+~
+~
+~

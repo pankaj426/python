@@ -1,0 +1,49 @@
+class A:
+        def __init__(self):
+                print("from init a")
+        def fet(self):
+                print("fet1")
+        def fet2(self):
+                print("fet2")
+class B(A):
+        def __init__(self):
+                super().__init__()
+                print("from b init")
+
+        def fet3(self):
+                print("fet3")
+        def fet4(self):
+                print("ftr4")
+
+
+b = B()
+b.fet2()
+
+
+
+
+
+
+class A:
+        def __init__(self):
+                print("from init a")
+        def fet(self):
+                print("fet1")
+        def fet2(self):
+                print("fet2")
+class B:
+        def __init__(self):
+                print("from b init")
+
+        def fet3(self):
+                print("fet3")
+        def fet4(self):
+                print("ftr4")
+
+class C(A,B):
+        def __init__(self):
+                super().__init__()
+                print('from c')
+
+
+k1 = C()
