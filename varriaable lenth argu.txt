@@ -1,0 +1,7 @@
+def person(name,**data):
+    print(name)
+    print(data)
+
+
+
+person('name',age=23 ,

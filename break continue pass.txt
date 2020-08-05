@@ -1,0 +1,35 @@
+av = 5
+x = int(input("how many candy you want"))
+i =1
+while i<x:
+    print("canfy")
+    if i>av:
+        print("out of stock")
+    i+=1
+
+
+
+
+for i in range(1,20):
+    if i%3==0:
+        continue
+    print(i)
+
+
+
+print("bye")
+
+
+
+
+
+or i in range(1,20):
+
+    if (i%2!=0):
+        pass
+    else:
+        print(i)
+
+
+
+print("bye")

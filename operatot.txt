@@ -1,0 +1,38 @@
+x+y
+x-y
+x/y
+x*y
+x=x+6
+x+=5
+x*=4
+
+
+a,b = 3,4
+
+unary operater
+n =7
+n = -n
+
+relational op
+
+a,b =3,4
+a<b
+a>b
+
+a == b
+a<=b
+a>=b
+
+notequale
+a!=b
+
+logicalmopertor
+
+
+and or not
+a= 5
+b= 8
+a<8 and b <5
+
+x = true
+Notx

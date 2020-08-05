@@ -1,0 +1,51 @@
+from numpy import *
+arr1 = array([2,3,45,67,89])
+arr2 = array([2,45,3,45,23])
+arr = arr1[2]+3
+print(arr)
+print(arr)
+
+
+
+
+
+from numpy import *
+arr = array([2,3,45,67,89])
+
+print(sin(arr))
+
+
+
+
+from numpy import *
+arr = array([2,3,45,67,89])
+
+print(sort(arr))
+
+
+
+
+
+
+from numpy import *
+arr = array([2,3,45,67,89])
+arr1= arr.view()
+
+print(sort(arr1))
+print(arr)
+print(arr1)
+print(id(arr))
+print(id(arr1))
+
+
+
+
+from numpy import *
+arr = array([2,3,45,67,89])
+arr1= arr.copy()
+
+print(sort(arr1))
+print(arr)
+print(arr1)
+print(id(arr))
+print(id(arr1))

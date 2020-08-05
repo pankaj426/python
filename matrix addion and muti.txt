@@ -1,0 +1,89 @@
+from numpy import *
+arr = array([
+
+              [23,34,22,12],
+              [23,34,12,11]
+
+])
+
+
+print(arr)
+print(arr.dtype)
+print(arr.shape)
+print(arr.ndim)
+
+
+
+
+
+from numpy import *
+arr = array([
+
+              [23,34,22,12],
+              [23,34,12,11]
+
+])
+
+arr1 = arr.flatten()
+print(arr1)
+
+
+
+
+from numpy import *
+arr = array([
+
+              [23,34,22,12,2,2],
+              [23,34,12,11,2,2]
+
+])
+
+arr1 = arr.reshape(3,4)
+print(arr1)
+
+
+
+
+
+from numpy import *
+arr = array([
+
+              [23,34,22,12],
+              [23,34,12,11]
+
+])
+
+m = matrix(arr)
+print(arr)
+
+
+
+
+
+from numpy import *
+
+m = matrix('1 2 3; 2 2 2 ; 3 4 5')
+print(m)
+
+
+print(diagonal(m))
+
+
+
+
+
+
+
+from numpy import *
+
+m = matrix('1 2 3; 2 2 2 ; 3 4 5')
+
+
+m3 = m * m
+print(m3)
+
+
+print(diagonal(m))
+
+
+

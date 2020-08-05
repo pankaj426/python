@@ -1,0 +1,19 @@
+a = 7
+x = a%2
+if x==0:
+    print("even")
+else:
+    print('odd')
+
+
+
+a = 8
+x = a%2
+if x==0:
+    print("even")
+    if x<5:
+        print("great")
+    else:
+        print("by")
+else:
+    print('odd')

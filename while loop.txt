@@ -1,0 +1,33 @@
+i = 1
+while i<5:
+    print("pankaj" , i)
+    i+=1
+
+
+
+
+
+
+i = 1
+
+while i<5:
+    print("pankaj" , i)
+    j=1
+
+    while j<3:
+        print("rocks")
+        j+=1
+    i += 1
+
+
+
+i = 1
+
+while i<5:
+    print("pankaj" ,end="")
+    j=1
+
+    while j<3:
+        print("rocks" ,j)
+        j+=1
+    i += 1

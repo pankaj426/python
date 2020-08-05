@@ -1,0 +1,59 @@
+VARRIABLE
+id(num)
+a=10
+a=b
+id(a)
+id(b)
+type(a)
+type(b)
+
+TYPE OF VARRIABLE
+
+NONE(NULL)
+NUMERIC
+int float complex bool
+int 5
+float 4.7
+complec(num =a+bj)
+bool
+a =7.8
+b = int(a)
+
+b =float(a)
+k =9
+a =9
+c =complex(b,k)
+
+BOOL(true or false)
+b<k
+type(bool)
+
+LIST 
+lst = [45,45,23,78]
+
+SET
+S {23,56,89,4}
+
+TUPLE
+T = (23,23,456)
+
+STRING
+
+str ="pankaj"
+
+CHAR
+st = 'a'
+
+RANGE
+range(0, 10)
+list(range(10))
+list(range(2,10,2))
+type(range(10))
+
+DICTNORY
+
+ d = {'pankaj':'samsung','rahula':'nokia','anshika':'iphone'}
+d.keys()
+d.values()
+d['pankaj']
+d.get('pankaj')

@@ -1,0 +1,39 @@
+from numpy import *
+arr = array([2,3,45,2,3],float)
+print(arr.dtype)
+print(arr)
+
+
+from numpy import *
+arr = linspace(2,16,19)
+print(arr.dtype)
+print(arr)
+
+from numpy import *
+arr = arange(2,17,2)
+print(arr.dtype)
+print(arr)
+
+
+
+from numpy import *
+arr = logspace(2,17,2)
+print(arr.dtype)
+print(arr)
+
+
+
+
+
+from numpy import *
+arr = zeros(6)
+print(arr.dtype)
+print(arr)
+
+
+
+
+from numpy import *
+arr = ones(6)
+print(arr.dtype)
+print(arr)

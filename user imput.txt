@@ -1,0 +1,13 @@
+x = int(input("enter you last atm number"))
+y = int(input("enter you last digit mobale number"))
+z =x+y
+print(z)
+
+
+
+x = int(input("enter you last atm number"))
+y = int(input("enter you last digit mobale number"))
+z =x+y
+print(z)
+result = eval(input("enter the a mathematics expression"))
+print(result)
